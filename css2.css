@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+.container{
+    border: 1px solid  gray;
+    margin: 0 auto;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+.container>img{
+    width: 100%;
+}
+.containerh3,
+p{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container> h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+
+}
+.container>.decs{
+    line-height: 25px;
+    color: black;
+}
+.container>p :last-child>a :first-child{
+    margin-right: 10px;
+}
+.container>p :last-child{
+    color: blue;
+}
+.container>p :nth-child(2){
+    margin: 10px;
+}
